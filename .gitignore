@@ -1,0 +1,48 @@
+# Environments & secrets
+.venv/
+venv/
+.env
+.env.*
+*.pem
+kaggle.json
+.streamlit/secrets.toml
+
+# Data: raw files are re-downloadable (licence CC BY-NC-SA 4.0); processed/BI files are regenerated.
+# The pipeline recreates these folders, so they do not need to exist in the repo.
+data/raw/
+data/processed/
+data/bi/
+*.duckdb
+*.duckdb.wal
+*.parquet
+
+# Generated analysis outputs (re-created by `make all`); small, reviewable outputs are kept:
+outputs/stats/distance_sample.parquet
+
+# Python / tooling caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editor / temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+~$*
+
+# Power BI
+# The .pbix embeds an imported copy of the Olist data; held back pending licence review.
+*.pbix.bak
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Power BI handoff package (contains derived CC BY-NC-SA data; distribute separately)
+Olist_PowerBI_Handoff_*.zip
