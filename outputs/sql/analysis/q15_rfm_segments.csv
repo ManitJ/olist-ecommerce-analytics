@@ -1,0 +1,7 @@
+segment,customers,customer_share_pct,revenue,revenue_share_pct,avg_revenue,avg_recency_days,avg_frequency
+New high-value,14683,15.5,3934961.32,29.26,267.99,95.0,1.0
+Lapsed high-value,13968,14.75,3878705.42,28.84,277.69,395.0,1.0
+Lapsed standard,41208,43.51,3666684.86,27.26,88.98,319.0,1.0
+New standard,21973,23.2,1222025.37,9.09,55.61,92.0,1.0
+Loyal - lapsing,1649,1.74,416296.54,3.1,252.45,323.0,2.08
+Loyal - active,1226,1.29,330856.17,2.46,269.87,91.0,2.15

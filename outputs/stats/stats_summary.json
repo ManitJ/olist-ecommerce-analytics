@@ -1,0 +1,110 @@
+{
+  "late_delivery_vs_review": {
+    "n_late": 6378,
+    "n_on_time": 89182,
+    "mean_review_late": 2.271,
+    "mean_review_on_time": 4.291,
+    "low_review_rate_late": 0.6242,
+    "low_review_rate_on_time": 0.0925,
+    "low_review_rate_late_ci95": [
+      0.6122,
+      0.636
+    ],
+    "low_review_rate_on_time_ci95": [
+      0.0906,
+      0.0944
+    ],
+    "mann_whitney_u": 102901001.5,
+    "p_value": 0.0,
+    "rank_biserial": 0.6382,
+    "excess_low_reviews_among_late": 3391,
+    "share_of_all_low_reviews_from_late_orders": 0.3256
+  },
+  "late_first_order_vs_repeat": {
+    "customers_first_late": 5687,
+    "customers_first_on_time": 69398,
+    "repeat_rate_first_late": 0.0274,
+    "repeat_rate_first_on_time": 0.0355,
+    "repeat_rate_first_late_ci95": [
+      0.0235,
+      0.032
+    ],
+    "repeat_rate_first_on_time_ci95": [
+      0.0342,
+      0.0369
+    ],
+    "relative_difference": -0.2274,
+    "chi2": 9.937,
+    "p_value": 0.0016194630724781828,
+    "implied_missing_repeat_customers": 46
+  },
+  "distance_vs_delivery": {
+    "n_orders": 94460,
+    "coverage_of_single_seller_delivered": 0.995,
+    "spearman_distance_delivery_days": 0.5448,
+    "p_value_delivery": 0.0,
+    "spearman_distance_freight_ratio": 0.2185,
+    "p_value_freight": 0.0,
+    "by_distance_band": [
+      {
+        "distance_band": "<100 km",
+        "orders": 17657,
+        "median_delivery_days": 5.0898,
+        "late_rate": 0.0451
+      },
+      {
+        "distance_band": "100-500 km",
+        "orders": 36352,
+        "median_delivery_days": 9.3776,
+        "late_rate": 0.0619
+      },
+      {
+        "distance_band": "500-1,000 km",
+        "orders": 25315,
+        "median_delivery_days": 12.1758,
+        "late_rate": 0.0722
+      },
+      {
+        "distance_band": "1,000-2,000 km",
+        "orders": 9591,
+        "median_delivery_days": 15.3996,
+        "late_rate": 0.0963
+      },
+      {
+        "distance_band": "2,000+ km",
+        "orders": 5545,
+        "median_delivery_days": 18.2557,
+        "late_rate": 0.1214
+      }
+    ]
+  },
+  "late_root_cause": {
+    "late_orders": 6531,
+    "share_late_with_seller_sla_miss": 0.2773,
+    "late_rate_seller_sla_miss": 0.211,
+    "late_rate_seller_within_sla": 0.0539
+  },
+  "rj_vs_sp": {
+    "RJ": {
+      "delivered": 12310,
+      "late_rate": 0.1214,
+      "late_rate_ci95": [
+        0.1158,
+        0.1273
+      ],
+      "avg_review": 3.965
+    },
+    "SP": {
+      "delivered": 40399,
+      "late_rate": 0.045,
+      "late_rate_ci95": [
+        0.043,
+        0.047
+      ],
+      "avg_review": 4.247
+    },
+    "chi2": 935.62,
+    "p_value": 1.7750677728586231e-205,
+    "RJ_revenue_share": 0.134
+  }
+}

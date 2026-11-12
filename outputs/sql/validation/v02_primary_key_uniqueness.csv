@@ -1,0 +1,6 @@
+check_name,expected,actual,status
+orders.order_id,0,0,PASS
+customers.customer_id,0,0,PASS
+products.product_id,0,0,PASS
+"order_items(order_id,order_item_id)",0,0,PASS
+v_order_summary.order_id,0,0,PASS

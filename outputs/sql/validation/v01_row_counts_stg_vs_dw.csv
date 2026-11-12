@@ -1,0 +1,8 @@
+check_name,expected,actual,status
+customers,99441,99441,PASS
+sellers,3095,3095,PASS
+products,32951,32951,PASS
+orders,99441,99441,PASS
+order_items,112650,112650,PASS
+payments,103886,103886,PASS
+reviews,99224,99224,PASS

@@ -1,0 +1,5 @@
+check_name,expected,actual,status
+sum(price) stg vs dw,13591643.7,13591643.7,PASS
+sum(freight) stg vs dw,2251909.54,2251909.54,PASS
+sum(payment_value) stg vs dw,16008872.12,16008872.12,PASS
+v_order_summary.product_revenue vs order_items,13591643.7,13591643.7,PASS

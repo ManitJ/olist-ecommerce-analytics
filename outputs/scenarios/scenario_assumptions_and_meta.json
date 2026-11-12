@@ -1,0 +1,241 @@
+{
+  "baseline_late_rate": 0.0786,
+  "L1_lanes": [
+    "SP->RJ",
+    "SP->BA",
+    "SP->ES",
+    "SP->CE",
+    "SP->MA",
+    "PR->RJ",
+    "SP->SC",
+    "SP->PA",
+    "SP->PI",
+    "SP->MS",
+    "SP->AL",
+    "SP->PE",
+    "MG->RJ",
+    "SP->SE",
+    "MA->SP"
+  ],
+  "L1_lane_late_rates": {
+    "SP->RJ": 0.1777,
+    "SP->BA": 0.1535,
+    "SP->ES": 0.1507,
+    "SP->CE": 0.1712,
+    "SP->MA": 0.2528,
+    "PR->RJ": 0.1463,
+    "SP->SC": 0.1033,
+    "SP->PA": 0.1532,
+    "SP->PI": 0.211,
+    "SP->MS": 0.1553,
+    "SP->AL": 0.2283,
+    "SP->PE": 0.1019,
+    "MG->RJ": 0.1036,
+    "SP->SE": 0.1959,
+    "MA->SP": 0.2033
+  },
+  "L2_late_rate_sla_miss": 0.2363,
+  "L2_late_rate_within_sla": 0.0628,
+  "L2_attributable_share": 0.7344,
+  "L4_peak_late_rate": 0.1529,
+  "L4_offpeak_late_rate": 0.0495,
+  "L4_attributable_share": 0.6763,
+  "review_gap_used": {
+    "low": 0.511,
+    "base": 0.529,
+    "high": 0.537
+  },
+  "assumptions": {
+    "L1_lane_recovery_excess_reduction": {
+      "low": 0.25,
+      "base": 0.5,
+      "high": 0.75
+    },
+    "L2_seller_sla_conversion": {
+      "low": 0.25,
+      "base": 0.5,
+      "high": 0.75
+    },
+    "L4_peak_excess_reduction": {
+      "low": 0.25,
+      "base": 0.4,
+      "high": 0.6
+    },
+    "L1_target_lanes": 15
+  },
+  "baseline_window": "2017-09-01 to 2018-08-31, delivered single-seller orders",
+  "L4_november_only_attributable_share": 0.4136,
+  "L3_promise_recalibration_backtest": [
+    {
+      "policy": "Current platform estimate",
+      "quantile": NaN,
+      "late_rate": 0.0783,
+      "avg_promised_days": 23.4,
+      "median_promised_days": 23.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P80",
+      "quantile": 0.8,
+      "late_rate": 0.1843,
+      "avg_promised_days": 16.4,
+      "median_promised_days": 16.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P81",
+      "quantile": 0.81,
+      "late_rate": 0.1761,
+      "avg_promised_days": 16.7,
+      "median_promised_days": 16.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P82",
+      "quantile": 0.82,
+      "late_rate": 0.1718,
+      "avg_promised_days": 16.9,
+      "median_promised_days": 16.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P83",
+      "quantile": 0.83,
+      "late_rate": 0.165,
+      "avg_promised_days": 17.2,
+      "median_promised_days": 17.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P84",
+      "quantile": 0.84,
+      "late_rate": 0.1507,
+      "avg_promised_days": 17.8,
+      "median_promised_days": 17.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P85",
+      "quantile": 0.85,
+      "late_rate": 0.1455,
+      "avg_promised_days": 18.1,
+      "median_promised_days": 17.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P86",
+      "quantile": 0.86,
+      "late_rate": 0.1376,
+      "avg_promised_days": 18.4,
+      "median_promised_days": 18.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P87",
+      "quantile": 0.87,
+      "late_rate": 0.1267,
+      "avg_promised_days": 19.1,
+      "median_promised_days": 18.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P88",
+      "quantile": 0.88,
+      "late_rate": 0.1191,
+      "avg_promised_days": 19.5,
+      "median_promised_days": 18.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P89",
+      "quantile": 0.89,
+      "late_rate": 0.1139,
+      "avg_promised_days": 19.9,
+      "median_promised_days": 19.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P90",
+      "quantile": 0.9,
+      "late_rate": 0.1026,
+      "avg_promised_days": 20.7,
+      "median_promised_days": 19.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P91",
+      "quantile": 0.91,
+      "late_rate": 0.0921,
+      "avg_promised_days": 21.6,
+      "median_promised_days": 20.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P92",
+      "quantile": 0.92,
+      "late_rate": 0.0842,
+      "avg_promised_days": 22.2,
+      "median_promised_days": 21.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P93",
+      "quantile": 0.93,
+      "late_rate": 0.0745,
+      "avg_promised_days": 23.2,
+      "median_promised_days": 21.0,
+      "is_matched_to_current_avg_promise": true,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P94",
+      "quantile": 0.94,
+      "late_rate": 0.0632,
+      "avg_promised_days": 24.5,
+      "median_promised_days": 22.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P95",
+      "quantile": 0.95,
+      "late_rate": 0.0547,
+      "avg_promised_days": 25.6,
+      "median_promised_days": 23.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P96",
+      "quantile": 0.96,
+      "late_rate": 0.0458,
+      "avg_promised_days": 27.2,
+      "median_promised_days": 25.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    },
+    {
+      "policy": "Route-calibrated P97",
+      "quantile": 0.97,
+      "late_rate": 0.0347,
+      "avg_promised_days": 29.5,
+      "median_promised_days": 27.0,
+      "is_matched_to_current_avg_promise": false,
+      "test_orders": 51983
+    }
+  ]
+}

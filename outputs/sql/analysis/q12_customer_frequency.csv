@@ -1,0 +1,4 @@
+frequency_band,customers,customer_share_pct,revenue,revenue_share_pct,revenue_per_customer
+1 order,91832,96.96,12702376.97,94.44,138.32
+2 orders,2640,2.79,647753.12,4.82,245.36
+3+ orders,235,0.25,99399.59,0.74,422.98

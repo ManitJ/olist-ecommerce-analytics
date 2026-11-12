@@ -1,0 +1,66 @@
+{
+  "coverage": {
+    "delivered_single_seller_orders": 94931,
+    "share_of_delivered_in_window": 0.9868
+  },
+  "seller_concentration": {
+    "sellers_with_deliveries": 2925,
+    "platform_late_rate": 0.0687,
+    "share_of_late_orders_from_top10pct_sellers_by_late_count": 0.7363,
+    "share_of_delivered_orders_from_same_sellers": 0.6272,
+    "share_of_sla_misses_from_top10pct_sellers_by_misses": 0.7714,
+    "eligible_sellers_min_orders": 30,
+    "top50_eligible_sellers_excess_late_orders": 731.2,
+    "top50_share_of_all_positive_excess": 0.4119,
+    "top50_late_rate": 0.1106,
+    "top50_share_of_delivered_orders": 0.1835
+  },
+  "route_concentration": {
+    "routes_with_min_orders": 124,
+    "top15_routes_excess_late": 1284.7,
+    "top15_share_of_positive_excess": 0.8761,
+    "top15_share_of_delivered": 0.2184,
+    "sp_to_rj_late_rate": 0.1428,
+    "sp_to_rj_delivered": 8031,
+    "sp_to_sp_late_rate": 0.0471,
+    "rj_customer_share_from_sp_sellers": 0.6608
+  },
+  "controlled_review_effect": {
+    "n_orders": 94302,
+    "raw_low_review_rate_on_time": 0.0871,
+    "raw_low_review_rate_late": 0.6239,
+    "raw_gap_pp": 53.7,
+    "within_seller_sellers_used": 1201,
+    "within_seller_late_orders_covered": 6309,
+    "within_seller_gap_pp": 52.9,
+    "logit_odds_ratio_late": 17.16,
+    "logit_odds_ratio_ci95": [
+      15.82,
+      18.62
+    ],
+    "logit_avg_marginal_effect_pp": 51.1,
+    "logit_ame_ci95_pp": [
+      49.6,
+      52.5
+    ],
+    "logit_pseudo_r2": 0.1681,
+    "logit_controls": "low_review ~ is_late + log_price + freight_ratio + multi_item + interstate + C(customer_state) + C(cat) + C(month)",
+    "logit_standard_errors": "cluster-robust by seller",
+    "dose_response_low_review_by_days_late": {
+      "(0, 3]": 0.3203,
+      "(3, 7]": 0.6762,
+      "(7, 14]": 0.8015,
+      "(14, 1000]": 0.7832
+    }
+  },
+  "lane_persistence": {
+    "lanes_with_min_orders_both_years": 78,
+    "spearman_lane_late_rate_2017_vs_2018": 0.681,
+    "p_value": 7.017913803222392e-12,
+    "platform_late_rate_2017": 0.057,
+    "platform_late_rate_2018": 0.0783,
+    "top10_lanes_2017_share_above_platform_in_2018": 1.0,
+    "sp_rj_ratio_to_platform_2017": 2.2,
+    "sp_rj_ratio_to_platform_2018": 2.04
+  }
+}

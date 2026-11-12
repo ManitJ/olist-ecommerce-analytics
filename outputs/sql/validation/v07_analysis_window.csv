@@ -1,0 +1,3 @@
+check_name,expected,actual,status
+months in window,20,20,PASS
+orders outside window (excluded from trend KPIs),,349,INFO

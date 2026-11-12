@@ -1,0 +1,7 @@
+check_name,expected,actual,status
+carrier handoff before payment approval,,1359.0,INFO
+customer delivery before carrier handoff,,23.0,INFO
+status/date conflict,,14.0,INFO
+products with unknown category,,610.0,INFO
+orders with more than one review (latest kept in views),,547.0,INFO
+orders with no payment record,,1.0,INFO

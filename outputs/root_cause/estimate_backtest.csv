@@ -1,0 +1,20 @@
+policy,quantile,late_rate,avg_promised_days,median_promised_days,is_matched_to_current_avg_promise,test_orders
+Current platform estimate,,0.0783,23.4,23.0,False,51983
+Route-calibrated P80,0.8,0.1843,16.4,16.0,False,51983
+Route-calibrated P81,0.81,0.1761,16.7,16.0,False,51983
+Route-calibrated P82,0.82,0.1718,16.9,16.0,False,51983
+Route-calibrated P83,0.83,0.165,17.2,17.0,False,51983
+Route-calibrated P84,0.84,0.1507,17.8,17.0,False,51983
+Route-calibrated P85,0.85,0.1455,18.1,17.0,False,51983
+Route-calibrated P86,0.86,0.1376,18.4,18.0,False,51983
+Route-calibrated P87,0.87,0.1267,19.1,18.0,False,51983
+Route-calibrated P88,0.88,0.1191,19.5,18.0,False,51983
+Route-calibrated P89,0.89,0.1139,19.9,19.0,False,51983
+Route-calibrated P90,0.9,0.1026,20.7,19.0,False,51983
+Route-calibrated P91,0.91,0.0921,21.6,20.0,False,51983
+Route-calibrated P92,0.92,0.0842,22.2,21.0,False,51983
+Route-calibrated P93,0.93,0.0745,23.2,21.0,True,51983
+Route-calibrated P94,0.94,0.0632,24.5,22.0,False,51983
+Route-calibrated P95,0.95,0.0547,25.6,23.0,False,51983
+Route-calibrated P96,0.96,0.0458,27.2,25.0,False,51983
+Route-calibrated P97,0.97,0.0347,29.5,27.0,False,51983

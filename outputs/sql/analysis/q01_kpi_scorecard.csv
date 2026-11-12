@@ -1,0 +1,2 @@
+revenue_orders,product_revenue,freight_revenue,avg_order_value,items_per_order,unique_customers,freight_to_price_ratio,cancel_unavailable_rate,on_time_delivery_rate,avg_delivery_days,avg_review_score_delivered,low_review_rate
+97910,13449529.68,2234177.06,137.37,1.141,94707,0.1661,0.0119,0.9321,12.54,4.156,0.1463

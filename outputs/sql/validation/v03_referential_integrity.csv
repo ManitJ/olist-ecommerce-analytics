@@ -1,0 +1,8 @@
+check_name,expected,actual,status
+order_items -> orders,0,0,PASS
+order_items -> products,0,0,PASS
+order_items -> sellers,0,0,PASS
+orders -> customers,0,0,PASS
+payments -> orders,0,0,PASS
+reviews -> orders,0,0,PASS
+products -> categories,0,0,PASS

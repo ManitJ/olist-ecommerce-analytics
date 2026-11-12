@@ -1,0 +1,4 @@
+check_name,expected,actual,status
+share of orders with |payment - (price+freight)| <= 0.01,0.99,0.9969,PASS
+orders with payment > items by more than R$1,,232.0,INFO
+orders with payment < items by more than R$1,,17.0,INFO

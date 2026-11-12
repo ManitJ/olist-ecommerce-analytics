@@ -1,0 +1,4 @@
+case,variant,late_orders_avoided,new_late_rate
+low,L4 = November only,670,0.0695
+base,L4 = November only,1267,0.0613
+high,L4 = November only,1844,0.0534
