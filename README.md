@@ -4,7 +4,6 @@
 
 A business analysis case study on the public [Olist Brazilian E-Commerce dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (99,441 orders, 9 related tables, 2016–2018). It is framed as a consulting engagement for a hypothetical VP of Operations. It runs from problem framing and requirements to root-cause analysis, a transparent scenario model, a Power BI dashboard and an executive recommendation. Every number is produced by a tested, reproducible SQL + Python pipeline.
 
-> **Scope note.** The data is real. The sponsor, stakeholders, targets and roadmap are **hypothetical**, constructed to show how a BA would run the engagement. No interventions were implemented, and no stakeholder interviews took place.
 
 ---
 
