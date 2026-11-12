@@ -40,7 +40,7 @@ A business analysis case study on the public [Olist Brazilian E-Commerce dataset
 
 The Executive Overview page uses the star schema and DAX measures from the [Power BI build package](dashboard/powerbi/README.md). Its KPI cards match the validated SQL scorecard ([`q01_kpi_scorecard.csv`](outputs/sql/analysis/q01_kpi_scorecard.csv)): 97,910 orders, 13.45M product revenue (Brazilian reais), 93.2% on-time, 12.5 average delivery days.
 
-**Power BI Report:** The completed Power BI dashboard is available in this repository as [`OList_Dashboard.pbix`](OList_Dashboard.pbix). It includes the Executive Overview, data model, and DAX measures used to analyze e-commerce revenue and delivery performance.
+**Power BI Report:** The completed Power BI dashboard is available in this repository as [`0List_Dashboard.pbix`](0List_Dashboard.pbix). It includes the Executive Overview, data model, and DAX measures used to analyze e-commerce revenue and delivery performance.
 
 **Interactive preview (Streamlit, not Power BI):** built on the same star schema and tested to reproduce the validated KPIs. Run it with `make preview`.
 
